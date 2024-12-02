@@ -7,7 +7,7 @@
 
 ### Клонирование проекта
 ```bash
-git clone
+git clone https://github.com/Myortv/fsm-tasks
 ```
 
 
@@ -23,8 +23,8 @@ PYROGRAM_BOT_TOKEN=""
 ### logifile
 Нужно создать директорию для логов и первый файл для логов:
 ```bash
-mkdir ...logs
-touch ...logs/logfile
+mkdir fms-tasks/logs
+touch fms-tasks/logs/logfile
 ```
 ### Сборка/запуск
 ```bash
