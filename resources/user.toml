@@ -1,0 +1,20 @@
+[UserMessages]
+not_exsists__user_create = "You need to create account before start using bot. Click on buttons below, to input accrount data:"
+creating__user_create = "You need to finish account creation.\nInputed data:\n\n**Username:** {username}\n**Login:** {login}\n\n You can update account data later, if needed."
+created__user_update = "This is your account:\n\n**Username:** {username}\n**Login:** {login}\n\nClick on fields below, to update:"
+
+create_user = "Create your user account. Set your username and login. Click on keyboard to choose what to set."
+update_user_not_full_info = "Your account don't have full info.\n\n**Username**: {username}\n**Login**: {login}\n\nAdd needed info:"
+user_info = "This is your user account data:\n\n**Username:** {username}\n**Login:** {login}\n\nYou can update data if needed:"
+
+username_updated = "Your username updated successfully to: {username}"
+login_updated = "Your login updated successfully to: {login}"
+
+input_prompt_login = "Input your login:"
+input_prompt_username = "Input your username:"
+
+
+[Keyboard]
+inline_username = "username"
+inline_login = "login"
+inline_create_user = "create account"

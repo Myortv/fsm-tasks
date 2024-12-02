@@ -1,0 +1,9 @@
+tgcrypto
+toml
+#aiosqlite
+asyncpg
+Pyrogram
+pydantic
+pydantic-settings
+
+

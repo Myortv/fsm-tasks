@@ -1,0 +1,73 @@
+[TaskMessages]
+test = "test-task messages"
+
+cant_move_to_this_state = "Cant move to this state"
+
+prompt_input__description = "Input new description:"
+prompt_input__title = "Send new title:"
+
+
+task_list = "Task list"
+task_created = "Task \"{title}\" created. You can find it in your {all_tasks}."
+task_discard = "Task \"{title}\" discarded."
+
+not_exsists__general = "This is your task:\n\n**Title:** {title}\n**Desciption:** {description}\n**Status:** {state}.\n\nChoose what to do: move state or update fields:\n\n"
+creating__general = "This is your task:\n\n**Title:** {title}\n**Desciption:** {description}\n**Status:** {state}.\n\nChoose what to do: move state or update fields:\n\n"
+scheduled__general = "This is your task:\n\n**Title:** {title}\n**Desciption:** {description}\n**Status:** {state}.\n\nChoose what to do: move state or update fields:\n\n"
+accepted__general = "This is your task:\n\n**Title:** {title}\n**Desciption:** {description}\n**Status:** {state}.\n\nChoose what to do: move state or update fields:\n\n"
+in_work__general = "This is your task:\n\n**Title:** {title}\n**Desciption:** {description}\n**Status:** {state}.\n\nChoose what to do: move state or update fields:\n\n"
+awaits_user_review__general = "This is your task:\n\n**Title:** {title}\n**Desciption:** {description}\n**Status:** {state}.\n\nChoose what to do: move state or update fields:\n\n"
+finished__general = "This is your task:\n\n**Title:** {title}\n**Desciption:** {description}\n**Status:** {state}.\n\nChoose what to do: move state or update fields:\n\n"
+canceled__general = "This is your task:\n\n**Title:** {title}\n**Desciption:** {description}\n**Status:** {state}.\n\nChoose what to do: move state or update fields:\n\n"
+suspended__general = "This is your task:\n\n**Title:** {title}\n**Desciption:** {description}\n**Status:** {state}.\n\nChoose what to do: move state or update fields:\n\n"
+
+not_exsists__edit = "Create your new task. Click on any field below and input your values:"
+creating__edit = "You can continue to create your new task.\nThis is your last inputted values:\n\n**Title**: {title}\n**Description:** {description}\n\n To change/add values, just click on any field below and input desired value:"
+scheduled__edit = "To Edit task, click on any field below and input your new value:"
+accepted__edit = "To Edit task, click on any field below and input your new value:"
+in_work__edit = "To Edit task, click on any field below and input your new value:"
+awaits_user_review__edit = "To Edit task, click on any field below and input your new value:"
+finished__edit = "To Edit task, click on any field below and input your new value:"
+canceled__edit = "To Edit task, click on any field below and input your new value:"
+suspended__edit = "To Edit task, click on any field below and input your new value:"
+
+
+not_exsists__move_state = "Move State:"
+creating__move_state = "Move State:"
+scheduled__move_state = "Move State:"
+accepted__move_state = "Move State:"
+in_work__move_state = "Move State:"
+awaits_user_review__move_state = "Move State:"
+finished__move_state = "Move State:"
+canceled__move_state = "Move State:"
+suspended__move_state = "Move State:"
+
+
+input_prompt_title = "Send me your title:"
+input_prompt_description = "Send me your description:"
+
+
+[TaskKeyboard]
+test = "test-task keyboard"
+
+inline__create = "create task!"
+inline__discard = "discard input"
+inline__description = "description"
+inline__title = "title"
+
+inline__not_exsists = "not exsists"
+inline__creating = "creating"
+inline__scheduled = "scheduled"
+inline__accepted = "accepted"
+inline__in_work = "in work"
+inline__awaits_user_review = "awaits user review"
+inline__finished = "finished"
+inline__canceled = "canceled"
+inline__suspended = "suspended"
+
+inline__right = "right"
+inline__left = "left"
+
+inline__edit = "edit"
+inline__move_state = "move state"
+

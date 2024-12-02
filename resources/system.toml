@@ -1,0 +1,32 @@
+[SystemMessages]
+start_command_message = """
+Welcome to {bot_name} -- task bot.
+You can use bottom keypad to navigate bot functionality.
+
+You can click: 
+**{new_task}** to create new task
+**{all_tasks}** to open menu of all your tasks
+**{user_info}** to see your account data
+**{rules}** to see how use bot
+
+
+Now, you need to setup your account.
+"""
+rules = """
+You can click: 
+**{new_task}** to create new task
+**{all_tasks}** to open menu of all your tasks
+**{user_info}** to see your account data
+**{rules}** to see this page
+
+This project's code available on: https://github.com/Myortv/fsm-tasks
+"""
+unhandled_input = "Unhadled input"
+
+
+
+[SystemKeyboard]
+user_info = "🧑User"
+new_task = "➕ New task"
+all_tasks = "📚 All tasks"
+rules = "📃Rules"
